@@ -1,0 +1,42 @@
+extends ./layout/index
+
+block contenido
+    main.container.mt-5 
+        .row 
+            .col-md-5 
+                img(src="img/nosotros.jpg", alt="imagen sobre nosotros", class="img-fluid")
+            .col-md-7
+                h1 #{pagina}
+                blockquote Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    |In ultricies vehicula dui vitae tempor. Pellentesque in mollis est. Ut massa risus, 
+                    |tincidunt non tempus vel, interdum non lacus. Praesent sapien velit, rhoncus id elit nec, 
+                    |cursus tempor elit. Cras blandit consectetur lorem at porttitor. 
+
+                p Pellentesque ac quam purus. Pellentesque luctus ipsum ac sodales 
+                    |fringilla. Pellentesque at rhoncus orci. Donec urna velit, vehicula ut nulla non, 
+                    |condimentum faucibus felis. Fusce varius eleifend sapien ut sodales. Aliquam vitae ligula sed sapien gravida porttitor. 
+                    |Pellentesque tincidunt elit ut enim imperdiet molestie. 
+
+                p Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam ex nulla, eleifend a porta non, 
+                    |efficitur ac turpis. Nam facilisis, ipsum a tempor condimentum, eros arcu mollis tellus, 
+                    |eget placerat lacus augue eget elit. Orci varius natoque penatibus et magnis dis parturient montes, 
+                    |nascetur ridiculus mus. 
+
+    .listado-iconos 
+        .container.mt-5.py-5.text-center
+            .row
+                .col-md-4
+                    img(src="img/icono_seguridad.svg", alt="icono seguridad", class="img-fluid mb-4")
+                    h2.mb-4 Seguridad 
+                    p Pellentesque at rhoncus orci. Donec urna velit, vehicula ut nulla non, 
+                        |condimentum faucibus felis.
+                .col-md-4
+                    img(src="img/icono_destinos.svg", alt="icono destinos", class="img-fluid mb-4")
+                    h2.mb-4 Mejores Destinos 
+                    p Pellentesque at rhoncus orci. Donec urna velit, vehicula ut nulla non, 
+                        |condimentum faucibus felis.
+                .col-md-4
+                    img(src="img/icono_precios.svg", alt="icono precios", class="img-fluid mb-4")
+                    h2.mb-4 Los Mejores Precios 
+                    p Pellentesque at rhoncus orci. Donec urna velit, vehicula ut nulla non, 
+                        |condimentum faucibus felis.
